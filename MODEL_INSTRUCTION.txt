@@ -1,0 +1,10 @@
+File model.pkl belum disertakan di paket ini karena file tersebut adalah binary model asli dari repository.
+
+Langkah yang harus dilakukan:
+1. Buka repository GitHub OVARIS-PCOS.
+2. Download file pcos_streamlit_package.pkl.
+3. Rename file tersebut menjadi model.pkl.
+4. Letakkan model.pkl di folder yang sama dengan main.py dan predictor.py.
+
+Setelah itu jalankan:
+uvicorn main:app --reload
